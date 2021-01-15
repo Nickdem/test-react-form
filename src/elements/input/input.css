@@ -1,0 +1,47 @@
+.form__control {
+  margin-bottom: 8px;
+  padding-bottom: 26px;
+  position: relative;
+}
+
+.form__control-error {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FF7171;
+}
+
+.form__control-label {
+  display: block;
+  font-weight: 500;
+  color: #756F86;
+  margin-bottom: 6px;
+}
+
+.form__control-input {
+  width: 100%;
+  color: #2C2738;
+  font-size: 16px;
+  line-height: 21px;
+  padding: 0 16px;
+  height: 52px;
+  background: #FFFFFF;
+  border: 1px solid #DBE2EA;
+  box-shadow: 0px 4px 8px rgba(44, 39, 56, 0.04);
+  border-radius: 6px;
+  outline: none;
+  transition: all .3s;
+}
+
+.form__control-input:focus,
+.form__control-input:hover {
+  border: 2px solid #0880AE;
+}
+
+.form__control-input::placeholder {
+  color: #7C9CBF;
+  font-size: 16px;
+  line-height: 21px;
+}
